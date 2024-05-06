@@ -36,6 +36,16 @@ p {
 
 }
 
+a {
+    color: black;
+    text-decoration: none; /* Removes the underline */
+}
+
+a:hover {
+    color: #E7E977; /* Change the color to E7E977 on hover */
+}
+
+
 .content {
     padding: 2rem;
 }

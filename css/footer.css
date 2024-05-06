@@ -2,7 +2,7 @@
 
 .site-footer
 {
-  background-color:#26272b;
+  background-color:white;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -37,11 +37,12 @@
 .footer-links
 {
   padding-left:0;
-  list-style:none
+  list-style: none;
 }
 .footer-links li
 {
-  display:block
+  display: inline-block;
+  margin-right: 10px;
 }
 .footer-links a
 {
@@ -49,12 +50,12 @@
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
-  color:#3366cc;
+  color:#E7E977;
   text-decoration:none;
 }
 .footer-links.inline li
 {
-  display:inline-block
+  display: flex;
 }
 .site-footer .social-icons
 {
@@ -72,7 +73,10 @@
 }
 .copyright-text
 {
-  margin:0
+  margin:0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width:991px)
 {

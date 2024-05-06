@@ -149,7 +149,7 @@ ul.actions {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: salmon;
+			background-color: #84CFC6;
 		}
 
 			.spotlights > section > .image {
@@ -211,7 +211,7 @@ ul.actions {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: gainsboro;
+				background-color: #7352A2;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
