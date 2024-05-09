@@ -145,12 +145,12 @@ a:hover {
 
 /* Images */
 
-img {
+/* img {
 
 
     width: 30%;
 
-}
+} */
 
 /* END */
 /* //////////// */
@@ -425,8 +425,25 @@ img {
     /* Main */
 
 	#main {
-		padding: 0em 0 6em 0 ;
+
+		padding: 2em 0 6em 0 ;
+        /* flex: 1;
+        display: flex;
+        align-items: center; */
+      
+    
 	}
+
+    #main:nth-child(even) {
+
+        background-color: white;
+    }
+    
+    #main:nth-child(odd) {
+
+        background-color: #c0c0c0; 
+    }
+    
 
 		@media screen and (max-width: 736px) {
 
@@ -436,6 +453,10 @@ img {
 
 		}
 
+        
+        
+
+          
     /* Section/Article */
 
 	section.special, article.special {
