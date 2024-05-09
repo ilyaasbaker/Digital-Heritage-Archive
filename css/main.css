@@ -434,14 +434,14 @@ a:hover {
     
 	}
 
-    #main:nth-child(even) {
+    /* #main:nth-child(1) {
 
         background-color: white;
-    }
+    } */
     
-    #main:nth-child(odd) {
+    #main:nth-child(2n+0) {
 
-        background-color: #c0c0c0; 
+        background-color: rgba(250, 250, 250, 0.9); 
     }
     
 
