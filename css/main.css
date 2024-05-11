@@ -189,14 +189,17 @@ a:hover {
             transition: transform 0.5s ease;
             position: relative;
             display: block;
-            width: 100%;
+            width: 300px;
+            height: 300px;
             border-radius: 4px;
             overflow: hidden;
+       
         }
 
             .tiles article > .image img {
                 display: block;
                 width: 100%;
+            
             }
 
             .tiles article > .image:before {
@@ -295,6 +298,7 @@ a:hover {
                 line-height: 1.5;
                 margin-top: 0.35em;
                 opacity: 0;
+              
             }
 
                 .tiles article > a .content > :last-child {
@@ -302,7 +306,7 @@ a:hover {
                 }
 
         .tiles article.style1 > .image:before {
-            background-color: #ffffff;
+            background-color:rgba(250, 250, 250, 0.9);
         }
 
         .tiles article.style2 > .image:before {
