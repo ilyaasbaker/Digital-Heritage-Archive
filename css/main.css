@@ -73,13 +73,23 @@ a:hover {
     float: left; /* This makes the text wrap around the image on the right */
     margin-right: 2rem; /* Adds space between the image and the text */
     margin-bottom: 1rem; /* Adds space below the image */
-    width: 40%; /* Adjust width as necessary */
+    width: 30%; /* Adjust width as necessary */
     height: auto; /* Maintain aspect ratio */
 }
 
+#map-section {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
 #map-container {
-    float: right;
-    width: 55%;
+    width: 60%;
     height: 600px;
     margin-left: 2rem;
     margin-bottom: 1rem;
@@ -96,7 +106,6 @@ a:hover {
     color: white; /* Text color */
     text-align: center; /* Centers text within the button */
     padding: 1rem 2rem; /* Button padding */
-    margin-top: 2rem; /* Space above the button */
     text-decoration: none; /* Removes underline from link */
     font-weight: bold; /* Makes the text bold */
     border-radius: 4px; /* Rounded corners */
@@ -106,8 +115,6 @@ a:hover {
 .button-container {
     display: flex; /* Use flexbox to center the button */
     justify-content: center; /* Center the button horizontally */
-    margin-top: 2rem; /* Add some space above the button */
-    margin-bottom: 2rem; /* Add some space below the button */
 }
 .explore-button:hover {
     background-color: #374151; /* Slightly darker on hover */

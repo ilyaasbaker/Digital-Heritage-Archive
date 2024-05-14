@@ -65,7 +65,7 @@ function parseCSV(text) {
 function initMap() {
   // Create a map object centered at a specific latitude and longitude
   var map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 14,
+    zoom: 13,
     center: { lat: 51.38307277544511, lng: -2.369336518262417 },
   });
 

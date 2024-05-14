@@ -50,35 +50,39 @@
 <!-- ////// -->
 
 <!-- MAIN -->
+  <div class="content">
 
-    <div class="content">
-        <h1 class="header">Explore Bath's Heritage</h1>
+    <h1 class="header">Explore Bath's Heritage</h1>
 
-        <img src="../bath.jpg" alt="Historic buildings in Bath, England, with a prominent cathedral and spire, over a backdrop of hazy hills." class="heritage-image">
-
+    
     <div class="text-block">
+      <img src="../images/bath.jpg" alt="Historic buildings in Bath, England, with a prominent cathedral and spire, over a backdrop of hazy hills." class="heritage-image">
+      
+      <p>In 1942, over the final weekend of April, Bath suffered three raids from 80 Luftwaffe aircraft 
+        which took off from Nazi occupied northern France.</p>
 
-        <p>Welcome to the Digital Heritage Archive – a portal dedicated to preserving the stories of Bath's heritage, 
-        particularly the Bath Blitz of April 1942. Here, we map out a tragic chapter of history, pinpointing locations 
+      <p>On this page, we map out a tragic chapter of history, pinpointing locations 
         across the city with interactive map pins that reveal the narratives of those affected.</p>
 
-        <p>Each pin unfolds a tale of the past, bringing to light the experiences of individuals and sites 
-        during the bombings. This archive serves as a tool for education and remembrance, making the lessons 
-        of yesteryear accessible to all. Dive into our digital repository to explore photographs, personal accounts, 
-        and historical insights, connecting with Bath's enduring spirit in the face of adversity.</p>
+      <p>Each pin unfolds a tale of the past, bringing to light the experiences of individuals and sites 
+      during the bombings. This archive serves as a tool for education and remembrance, making the lessons 
+      of yesteryear accessible to all. Dive into our digital repository to explore photographs, personal accounts, 
+      and historical insights, connecting with Bath's enduring spirit in the face of adversity.</p>
 
+      <section id="map-section">
         <div class="tabs">
             <button id="mapViewTab" class="tab" onclick="showMapView()">Map View</button>
             <button id="listViewTab" class="tab" onclick="showListView()">List View</button>
         </div>
-        
         <!-- Map container (remains the same) -->
         <div id="map-container">
-            <div id="map"></div>
+          <div id="map"></div>
         </div>
         
         <!-- List container (initially hidden) -->
         <div id="list-container" style="display:none;"></div>
+
+      </section>
     </div>
 </div>
 
